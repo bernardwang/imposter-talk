@@ -1,0 +1,86 @@
+// Default mixins and settings -----------------
+@import "../template/mixins";
+@import "../template/settings";
+// ---------------------------------------------
+
+
+// Include theme-specific fonts
+@import url(../../lib/font/source-sans-pro/source-sans-pro.css);
+@import url('https://fonts.googleapis.com/css?family=Muli:200,200i,400,400i,700,700i,800,800i,900,900i');
+
+// Override theme settings (see ../template/settings.scss)
+$backgroundColor: #141241;
+
+$mainColor: #fff;
+$headingColor: #6EF2A1;
+$hlColor: #E886CB;
+
+$mainFontSize: 42px;
+$mainFont: 'Source Sans Pro', Helvetica, sans-serif;
+$headingFont: 'Muli', Helvetica, sans-serif;
+$headingTextShadow: none;
+$headingLetterSpacing: normal;
+$headingTextTransform: none;
+$headingFontWeight: 800;
+$linkColor: #42affa;
+$linkColorHover: lighten( $linkColor, 15% );
+$selectionBackgroundColor: lighten( $linkColor, 25% );
+
+$heading1Size: 2.5em;
+$heading2Size: 1.6em;
+$heading3Size: 1.3em;
+$heading4Size: 1.0em;
+
+section.has-light-background {
+	&, h1, h2, h3, h4, h5, h6 {
+		color: #222;
+	}
+}
+
+// Theme template ------------------------------
+@import "../template/theme";
+// ---------------------------------------------
+
+.util-upper {
+	text-transform: uppercase !important;
+}
+
+.util-left {
+	text-align: left !important;
+}
+
+.util-right {
+	text-align: right !important;
+}
+
+.util-hl1 {
+	color: $hlColor !important;
+	font-weight: 800 !important;
+}
+
+.util-hl2 {
+	color: $headingColor !important;
+	font-weight: 800 !important;
+}
+
+.util-italic {
+	font-style: italic !important;
+}
+
+.slide-background.util-bgoverlay::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: $backgroundColor;
+	opacity: 0;
+	transition: all 800ms;
+}
+
+.slide-background.util-bgoverlay.present::before {
+	opacity: .6;
+	transition: all 800ms;
+}
+
