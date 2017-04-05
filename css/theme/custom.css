@@ -321,3 +321,6 @@ body {
 .slide-background.util-bgoverlay.present::before {
   opacity: .6;
   transition: all 800ms; }
+
+.credit {
+  font-size: 0.5em !important; }
