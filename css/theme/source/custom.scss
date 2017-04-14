@@ -58,11 +58,6 @@ section.has-light-background {
 	font-weight: 800 !important;
 }
 
-.util-hl2 {
-	color: $headingColor !important;
-	font-weight: 800 !important;
-}
-
 .util-italic {
 	font-style: italic !important;
 }
@@ -84,10 +79,6 @@ section.has-light-background {
 	transition: all 800ms;
 }
 
-.credit {
-	font-size: 0.5em !important;
-}
-
 #smart_vid {
   min-height: 100vh;
   position: absolute;
@@ -95,5 +86,9 @@ section.has-light-background {
   right: 0;
   bottom: 0;
   left: 0;
+}
+
+.credit {
+  font-size: 0.5em !important;
 }
 
