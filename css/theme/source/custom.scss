@@ -53,7 +53,7 @@ section.has-light-background {
 	text-align: right !important;
 }
 
-.util-hl1 {
+.util-hl {
 	color: $hlColor !important;
 	font-weight: 800 !important;
 }
@@ -87,3 +87,13 @@ section.has-light-background {
 .credit {
 	font-size: 0.5em !important;
 }
+
+#smart_vid {
+  min-height: 100vh;
+  position: absolute;
+  top: -12vh;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+

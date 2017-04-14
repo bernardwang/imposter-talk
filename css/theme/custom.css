@@ -296,7 +296,7 @@ body {
 .util-right {
   text-align: right !important; }
 
-.util-hl1 {
+.util-hl {
   color: #E886CB !important;
   font-weight: 800 !important; }
 
@@ -324,3 +324,11 @@ body {
 
 .credit {
   font-size: 0.5em !important; }
+
+#smart_vid {
+  min-height: 100vh;
+  position: absolute;
+  top: -12vh;
+  right: 0;
+  bottom: 0;
+  left: 0; }
