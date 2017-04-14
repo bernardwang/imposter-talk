@@ -1,7 +1,7 @@
-# [imposter-talk](www.bernard.wang/imposter-talk)
+# [imposter-talk](http://bernard.wang/imposter-talk)
 Deck on imposter syndrome and inclusivity for SAIL 2017, built with [reveal.js](https://github.com/hakimel/reveal.js)
 
-Slides at www.bernard.wang/imposter-talk
+Slides at http://bernard.wang/imposter-talk
 
 ## References
 
